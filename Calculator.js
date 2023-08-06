@@ -24,8 +24,7 @@ function handleNumber(value) {
 
     else {
         buffer += value;
-    }
-        
+    }       
 }
 
 function handleSymbol(value) {
@@ -57,7 +56,6 @@ function handleSymbol(value) {
         default: handleMath(value);
         break;
     }
-
 }
 
 function handleMath(value) {
